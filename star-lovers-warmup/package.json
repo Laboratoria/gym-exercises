@@ -1,0 +1,14 @@
+{
+  "name": "star-lovers-warmup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stars.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
