@@ -9,8 +9,8 @@ describe("Sum of number between 1 and N", () => {
     expect(sumOfNumbers(10)).toBe(55);
   });
 
-  it.skip('debería retornar 21 para n = 10', () => {
-    expect(sumOfNumbers(10)).toBe(55);
+  it.skip('debería retornar 21 para n = 6', () => {
+    expect(sumOfNumbers(6)).toBe(21);
   });
 
   it.skip('debería retornar 500500 para n = 1000', () => {
