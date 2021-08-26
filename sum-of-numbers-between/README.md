@@ -4,6 +4,6 @@
 
 Extraído de [www.youtube.com/watch?v=qbnTZCj0ugI](https://www.youtube.com/watch?v=qbnTZCj0ugI)
 
-{% step "Video explicación" }
+{% step "Video explicación" %}
 
 {% video https://www.youtube.com/watch?v=qbnTZCj0ugI %}
