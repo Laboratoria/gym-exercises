@@ -1,4 +1,9 @@
+// Puedes probar las diferentes soluciones comentando y descomentando lineas
 const { sumOfNumbers } = require(".");
+// const { sumOfNumbers } = require("./solutions/01-fuerzaBruta.for");
+// const { sumOfNumbers } = require("./solutions/02-fuerzaBruta.reduce");
+// const { sumOfNumbers } = require("./solutions/03-recursion");
+// const { sumOfNumbers } = require("./solutions/04-aritmetica");
 
 describe("Sum of number between 1 and N", () => {
   it('debería retornar 20100 por defecto o n = 200', () => {
