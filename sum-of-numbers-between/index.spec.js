@@ -29,4 +29,13 @@ describe("Sum of number between 1 and N", () => {
   it('debería retornar 500500 para n = 1000', () => {
     expect(sumOfNumbers(1000)).toBe(500500);
   });
+
+  // Este test case solo pasa con la solucion aritmetica
+  // `for` no demora una eternidad (CTRL + C para matar el test)
+  // `reduce` no puede crear un Array tan grande y agota el heap
+  // la recursion no puede anidar tantas llamadas y agota el stack
+  // la solucion aritmetica es instantanea
+  it.skip('debería retornar 50000000005000000000 para n = 100_000_00', () => {
+    expect(sumOfNumbers(50000000005000000000)).toBe(500500);
+  });
 });
