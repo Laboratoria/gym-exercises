@@ -17,6 +17,10 @@ describe("Sum of number between 1 and N", () => {
     expect(sumOfNumbers(7)).toBe(28);
   });
 
+  it.skip('debería retornar 144453 para n = 537', () => {
+    expect(sumOfNumbers(537)).toBe(144453);
+  });
+
   it.skip('debería retornar 500500 para n = 1000', () => {
     expect(sumOfNumbers(1000)).toBe(500500);
   });
