@@ -1,16 +1,16 @@
-const { printStarArr } = require("./stars");
+const { printStarsArray } = require("./stars");
 
-describe("Star Lovers::printArrayStar", () => {
+describe("Star Lovers::printStarsArray", () => {
   it('debería retornar ["*", "**", "***"] para 3', () => {
-    expect(printArrayStar(3)).toStrictEqual(["*", "**", "***"]);
+    expect(printStarsArray(3)).toStrictEqual(["*", "**", "***"]);
   });
 
   it('debería retornar ["*"] para 1', () => {
-    expect(printArrayStar(1)).toStrictEqual(["*"]);
+    expect(printStarsArray(1)).toStrictEqual(["*"]);
   });
 
   it("debería retornar [] para 0", () => {
-    expect(printArrayStar(0)).toStrictEqual([]);
+    expect(printStarsArray(0)).toStrictEqual([]);
   });
 });
 

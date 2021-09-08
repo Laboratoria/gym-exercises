@@ -1,5 +1,5 @@
-const printStarArr = (num) => {
+const printStarsArray = (num) => {
   // tu codigo aqui
 };
 
-module.exports.printStarArr = printStarArr;
+module.exports.printStarsArray = printStarsArray;
